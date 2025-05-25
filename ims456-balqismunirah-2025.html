@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="text-gray-600 leading-relaxed">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full bg-white shadow z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="text-xl font-bold">MY WEBSITE</div>
+      <div class="hidden md:flex space-x-6">
+        <a href="#home" class="hover:text-black">Home</a>
+        <a href="#about" class="hover:text-black">About</a>
+        <a href="#portfolio" class="hover:text-black">Portfolio</a>
+        <a href="#contact" class="hover:text-black">Contact</a>
+      </div>
+      <button class="md:hidden">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('scenery.jpg');">
+    <h1 class="text-white text-4xl md:text-6xl font-bold bg-black bg-opacity-50 px-6 py-4 rounded">WELCOME TO MY WEBSITE</h1>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-5xl mx-auto py-20 px-6">
+    <h2 class="text-center text-3xl font-bold mb-6">ABOUT ME</h2>
+    <p class="text-center italic mb-6">I love library science</p>
+    <div class="md:flex gap-8 items-center">
+      <div class="md:w-1/2 text-center mb-6 md:mb-0">
+        <p class="font-semibold text-lg mb-4"><i class="fa fa-user mr-2"></i>Balqis Munirah Binti Shafeei</p>
+        <img src="formal picture.jpg" alt="Me" class="rounded shadow mx-auto w-2/3">
+      </div>
+      <div class="md:w-1/2">
+        <p>Greetings!  I am a Library Management student who is passionate about the organisation of information, the enhancement of knowledge access, and the support of learning communities.  I have acquired practical experience in library technologies, reference services, digital archiving, and cataloguing during my academic career.  I am particularly enthusiastic about the potential for libraries to adapt in the digital era to better accommodate a wider range of users.
+ I am currently in search of opportunities to contribute my talents, develop professionally, and support the mission of lifelong learning and information access.  I am enthusiastic about contributing my dedication, meticulous attention to detail, and enthusiasm for information administration to a dynamic team, regardless of whether it is in a school, public, academic, or special library.
+ I would be delighted to discuss the ways in which I can assist your library or information centre. Let's build a connection!</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Portfolio Hero -->
+  <section class="h-80 bg-cover bg-center flex items-center justify-center" style="background-image: url('scenary2.jpg');">
+    <h2 class="text-white text-4xl font-bold bg-black bg-opacity-50 px-6 py-3 rounded">PORTFOLIO</h2>
+  </section>
+
+  <!-- Portfolio Section -->
+<section id="portfolio" class="py-16 px-4 max-w-7xl mx-auto">
+  <h3 class="text-3xl font-semibold text-center mb-4">PORTFOLIO</h3>
+  <p class="text-center italic mb-12">Here are details on my background. Click on each of the button to see more.</p>
+
+ <!-- Additional Pages Navigation -->
+<div class="mt-16 grid md:grid-cols-4 gap-4 text-center">
+  <a href="#cv" class="border rounded p-4 hover:bg-gray-100">Curriculum Vitae (CV)</a>
+  <a href="#activities" class="border rounded p-4 hover:bg-gray-100">Co-curricular Activities</a>
+  <a href="#awards" class="border rounded p-4 hover:bg-gray-100">Awards</a>
+  <a href="#projects" class="border rounded p-4 hover:bg-gray-100">Projects</a>
+</div>
+
+<!-- CV Section -->
+<section id="cv" class="mt-24">
+  <h2 class="text-2xl font-bold mb-4 text-center">Curriculum Vitae (CV)</h2>
+  <p class="text-center">Download my CV <a href="My CV.pdf" class="text-blue-600 underline">here</a></p>
+</section>
+
+<!-- Co-curricular Activities Section -->
+<section id="activities" class="mt-24">
+  <h2 class="text-2xl font-bold mb-4 text-center">Co-curricular Activities</h2>
+  <ul class="list-disc list-inside max-w-xl mx-auto">
+    <li>Member of Ikatan Persatuan Mahasiswa Muslim (IPMM)</li>
+    <!-- Responsive Image Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+    <img src="ipmm1.jpg" alt="Annual General Meeting 2023" class="w-full h-auto rounded shadow" />
+    <img src="ipmm2.jpg" alt="Young Entrepreneur @ PTAR" class="w-full h-auto rounded shadow" />
+    <img src="ipmm3.jpg" alt="IPMM Supreme Council" class="w-full h-auto rounded shadow" />
+    <img src="ipmm4.jpg" alt="Annual General Meeting 2024" class="w-full h-auto rounded shadow" />
+  </div>
+  <div class="w-full max-w-3xl mx-auto my-8">
+  <video class="w-full rounded shadow" controls>
+    <source src="ipmm vid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+    <!-- Section for Yayasan Kasih Sayang -->
+<li>Volunteer at Yayasan Kasih Sayang Negeri Sembilan</li> 
+    <!-- Responsive Image Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-4">
+  <img src="yks1.jpg" alt="Birthday celebration of the Yayasan Kasih Sayang Negeri Sembilan residents" class="w-full h-auto rounded shadow" />
+  <img src="yks2.jpg" alt="Two volunteers are preparing dishes" class="w-full h-auto rounded shadow" />
+  <img src="yks3.jpg" alt="Booth" class="w-full h-auto rounded shadow" />
+  <img src="yks4.jpg" alt="Picture with head chef of the day" class="w-full h-auto rounded shadow" />
+</div>
+
+    <li>Program Masjid ke Masjid</li>
+    <!-- Responsive Image Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+    <img src="m1.jpg" alt="Advisor inspects the area" class="w-full h-auto rounded shadow" />
+    <img src="m2.jpg" alt="Three people were cutting fruit" class="w-full h-auto rounded shadow" />
+    <img src="m3.jpg" alt="Three people were cleaning inside the mosque" class="w-full h-auto rounded shadow" />
+    <img src="m4.jpg" alt="Four men were standing" class="w-full h-auto rounded shadow" />
+  </div>
+  <div class="w-full max-w-3xl mx-auto my-8">
+  <video class="w-full rounded shadow" controls>
+    <source src="mvid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+  </ul>
+</section>
+
+<!-- Awards Section -->
+<section id="awards" class="mt-24">
+  <h2 class="text-2xl font-bold mb-4 text-center">Awards</h2>
+  <ul class="list-disc list-inside max-w-xl mx-auto">
+    <li>Dean’s List – Semester 4</li>
+    <img src="dean.jpg" alt="Me taking the Dean's List Award" class="w-full h-auto rounded shadow" />
+  </ul>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="mt-24 mb-24">
+  <h2 class="text-2xl font-bold mb-4 text-center">Projects</h2>
+  <ul class="list-disc list-inside max-w-xl mx-auto">
+    <li><strong>Portfolio Website:</strong> A personal website to showcase my skills and projects.</li>
+    <img src="website.jpg" alt="my website homepage" class="w-full h-auto rounded shadow" />
+
+    <li><strong>Publishing Book:</strong> Publishing our creativity.</li>
+    <img src="b1.jpg" alt="my book cover" class="w-full h-auto rounded shadow" />
+    <img src="b2.jpg" alt="my fairytale story" class="w-full h-auto rounded shadow" />
+
+    <li><strong>Community Library Outreach:</strong> A program where we serve the community.</li>
+    <!-- Responsive Image Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+    <img src="c1.jpg" alt="A group of student listen to the information given" class="w-full h-auto rounded shadow" />
+    <img src="c2.jpg" alt="A group photo" class="w-full h-auto rounded shadow" />
+    <img src="c3.jpg" alt="A group of student listens to the warden while sitting" class="w-full h-auto rounded shadow" />
+    <img src="c4.jpg" alt="A warden was delivering information" class="w-full h-auto rounded shadow" />
+  </div>
+  <div class="w-full max-w-3xl mx-auto my-8">
+  <video class="w-full rounded shadow" controls>
+    <source src="comvid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+    <li><strong>Kawan Buku Kita: Teman Bacaan Anak Kampung:</strong> A program where we play and teach orang asli student.</li>
+    <!-- Responsive Image Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+    <img src="cl1.jpg" alt="A group photo" class="w-full h-auto rounded shadow" />
+    <img src="cl2.jpg" alt="2 students playing ceper" class="w-full h-auto rounded shadow" />
+    <img src="cl3.jpg" alt="3 volunteers discussing" class="w-full h-auto rounded shadow" />
+    <img src="cl4.jpg" alt="2 volunteers making preparation" class="w-full h-auto rounded shadow" />
+  </div>
+  <div class="w-full max-w-3xl mx-auto my-8">
+  <video class="w-full rounded shadow" controls>
+    <source src="clvid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+  </ul>
+</section>
+
+  <!-- Contact Hero -->
+  <section class="h-80 bg-cover bg-center flex items-center justify-center" style="background-image: url('scenery2.jpg');">
+    <h2 class="text-white text-4xl font-bold bg-black bg-opacity-50 px-6 py-3 rounded">CONTACT</h2>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="max-w-6xl mx-auto py-20 px-6">
+      <div class="md:w-1/2 mt-8 md:mt-0">
+        <p class="mb-4"><i class="fa fa-map-marker-alt mr-2"></i>Segamat, Johor</p>
+        <p class="mb-4"><i class="fa fa-phone mr-2"></i>+6011-1625 8494</p>
+        <p class="mb-4"><i class="fa fa-envelope mr-2"></i>balqismunirah02@gmail.com</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 mt-16">
+  <div class="container mx-auto px-4 text-center">
+    <p class="mb-4">&copy; 2025 Balqis Munirah Shafeei. This webpage is solely for assignment purposes.</p>
+    <div class="flex justify-center space-x-4">
+      <a href="https://www.instagram.com/_munirahbalqis" target="_blank" rel="noopener noreferrer" class="text-pink-500 hover:text-pink-700">
+        <i class="fa fa-instagram"></i>
+      </a>
+
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Smooth scroll for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
+
+
